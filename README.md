@@ -27,3 +27,7 @@ from  [https://github.com/robintibor](https://github.com/robintibor/python-mindw
   
      > 腦波儀序號由藍芽連接介面的該儀器詳細介紹可找到
      
+## 補充
+   若想擷取其他腦波儀資訊，可將以下'AttentionDataPoint'替換
+   
+   > if ( dataPoint.__class__.__name__ == 'AttentionDataPoint'):
