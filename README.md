@@ -31,3 +31,12 @@ from  [https://github.com/robintibor](https://github.com/robintibor/python-mindw
    若想擷取其他腦波儀資訊，可將以下'AttentionDataPoint'替換
    
    > if ( dataPoint.__class__.__name__ == 'AttentionDataPoint'):
+
+## 腦波儀可能連接問題
+* Ubuntu bluetooth無法連接
+  > mindwave只可連接1個裝置(電腦)，請檢查是否有其他藍芽誤連
+* 訊號異常
+  > 將藍芽取消連接，重新配對
+  > 注意裝置是否佩戴正確(額前須貼齊)
+* 程式無法執行
+  > 注意python版本，有的terminal必須輸入'python3 XX.py'
